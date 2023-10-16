@@ -1,10 +1,10 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "conversionvxtwitterlinkURL",
   "description": "X旧twitterのポストURLをvxtwitterURLに変換する",
   "version": "1.0",
   "background": {
-    "service_worker ": "background.js"
+    "scripts" : ["background.js"]
   },
   "permissions": ["contextMenus", "clipboardRead"]
 }
